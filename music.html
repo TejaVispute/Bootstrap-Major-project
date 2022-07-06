@@ -4,24 +4,30 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>MAHARASHTRA | ARTISTS&SONGS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gulzar&display=swap" rel="stylesheet">
 </head>
 <style>
   .container img{
     height: 550px;
     width: 100%;
-    object-fit: cover;
+    object-fit: cover; /* This css is to adjust width and height of the image in card*/
     
   }
-  .imageitem{
+  /* .imageitem{
     height: 550px;
     width: 100%;
     object-fit:center;
-  }
+  } */
   .nav-item a{
-    font-size: 20px;
+    font-size: 20px; /* This font size is for navigation items*/
+  }
+  body{
+    font-family: 'Gulzar', serif;
   }
 
 </style>
@@ -59,9 +65,11 @@
           </div>
         </div>
       </nav>
+      <!-- navbar ends Here -->
     
+        <!-- Information about Artists in Maharashtra in table form -->
 
-      <h3 class="text-center my-3">Mahrashtrian Singers And Their Songs</h3>
+      <h3 class="text-center my-4">Mahrashtrian Singers And Their Songs</h3>
       <div class="container my-4">
         <table class="table table-hover table-info table-bordered border-5">
             <thead>
@@ -101,6 +109,11 @@
           </table>
       </div>
 
+      <!-- information in table ends here -->
+
+
+
+      <!-- Artist Name and their information  -->
    <div class="container">
     <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
@@ -115,16 +128,6 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Ashaji.jpg/330px-Ashaji.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Aasha Bhosle</h5>
-              <p class="card-text">Asha Bhosle[8] (Marathi pronunciation: [aːʃaː bʱoːsle]; née Mangeshkar; born 8 September 1933) is an Indian playback singer, entrepreneur and occasional actress and television personality who predominantly works in Indian Cinema. Known for her versatility, she has been described in the media as one of the most influential and successful singers in Hindi Cinema. In her career spanning over eight decades she has recorded songs for films and albums in various Indian languages and received several accolades including two National Film Awards, four BFJA Awards eighteen Maharashtra State Film Awards, nine Filmfare Awards including a Lifetime Achievement Award and a record seven Filmfare Award for Best Female Playback Singer[note 1], in addition to two Grammy nominations. In 2000, she was honoured with the Dadasaheb Phalke Award, India's highest award in the field of cinema. </p>
-              <button class="btn btn-primary">Click Here to Play songs</button>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
             <img src="https://images.hindustantimes.com/img/2021/10/21/550x309/1c37bb14-3276-11ec-a581-90b85644888b_1634824406886.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title"> Vishal Dadlani</h5>
@@ -133,6 +136,8 @@
             </div>
           </div>
         </div>
+        
+       
         <div class="col">
           <div class="card">
             <img src="https://images.hindustantimes.com/img/2021/10/12/1600x900/136c4860-2b5f-11ec-a2ce-f0c64477ba97_1634044876296.jpg" class="card-img-top" alt="...">
@@ -145,6 +150,18 @@
             </div>
           </div>
         </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Ashaji.jpg/330px-Ashaji.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Aasha Bhosle</h5>
+              <p class="card-text">Asha Bhosle[8] (Marathi pronunciation: [aːʃaː bʱoːsle]; née Mangeshkar; born 8 September 1933) is an Indian playback singer, entrepreneur and occasional actress and television personality who predominantly works in Indian Cinema. Known for her versatility, she has been described in the media as one of the most influential and successful singers in Hindi Cinema. In her career spanning over eight decades she has recorded songs for films and albums in various Indian languages and received several accolades including two National Film Awards, four BFJA Awards eighteen Maharashtra State Film Awards, nine Filmfare Awards including a Lifetime Achievement Award and a record seven Filmfare Award for Best Female Playback Singer[note 1], in addition to two Grammy nominations. In 2000, she was honoured with the Dadasaheb Phalke Award, India's highest award in the field of cinema. </p>
+              <button class="btn btn-primary">Click Here to Play songs</button>
+            </div>
+          </div>
+        </div>
+        <!-- Artists name and their information ends here -->
       </div>
    </div>
 

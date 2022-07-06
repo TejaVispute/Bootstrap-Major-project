@@ -4,28 +4,37 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>MAHARASHTRA | ATTRACTION</title>
   <link rel="stylesheet" href="/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gulzar&display=swap" rel="stylesheet">
   <style>
   .image{
     width: 100%;
     height: 300px;
-    object-fit: cover;
+    object-fit: cover; /* Beautiful images of maharashtra carousel images height defined*/
   }
   .cardimage{
-    height: 250px;
+    height: 250px; /*  Popular palaces of maharashtra card image height defined*/
   }
 
   .nav-item a{
-    font-size: 20px;
+    font-size: 20px; /* Navbar font size*/
+  }
+
+  body{
+    font-family: 'Gulzar', serif;
   }
   
   </style>
 </head>
 
 <body>
+
+  <!-- /* navbar starts from here*/ -->
   <nav class="navbar navbar-expand-lg navbar-dark"
     style="background: linear-gradient(to bottom, #00cc66 0%, #669999 100%);">
     <div class="container-fluid">
@@ -58,8 +67,13 @@
       </div>
     </div>
   </nav>
+
+  <!-- /* navbar Ends here*/ -->
+
   
-  <h3 class="page-header text-center mt-2"> Beautiful Places Of MAHARASHTRA</h3>
+  <h3 class="page-header text-center mt-4"> Beautiful Places Of MAHARASHTRA</h3>
+
+  <!-- carousel of places starts her -->
   <div class="container">
   <div id="carouselExampleControls" class="carousel " data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -84,8 +98,13 @@
   </div>
 </div>
 
+<!-- carousel ends here -->
+
 <h3 class="display-6 text-center my-2"> Most Popular Places In Maharashtra & their information</h3>
 
+
+
+<!-- 3 cards added from here places info -->
 <div class="container my-3">
   <div class="row row-cols-1 row-cols-md-3 g-4">
 
@@ -104,7 +123,7 @@
     
     <div class="col">
       <div class="card h-100">
-        <img src="https://qph.cf2.quoracdn.net/main-qimg-f46773da7062e36c238802296d119e29-lq" class="card-img-top cardimage" alt="...">
+        <img src="https://media.istockphoto.com/photos/green-hills-in-western-ghats-india-picture-id802454608?b=1&k=20&m=802454608&s=170667a&w=0&h=nk0amHgk0t6KSVXISKVD5LqYEHy-OE6gHSN4VZ3zPwY=" class="card-img-top cardimage" alt="...">
         <div class="card-body">
           <h5 class="card-title">Lonavla</h5>
           <p class="card-text">Lonavala (ISO: Loṇāvaḷā) is a hill station town and a Municipal Council in the Pune district, Maharashtra, India. It is about 64 km (40 miles) west of Pune and 96 km (60 miles) to the east of Mumbai. It is known for its production of the hard candy chikki and is also a major stop on the railway line connecting Mumbai and Pune. From the Pune suburbs, local trains are available from Pune Junction.</p>
@@ -129,10 +148,11 @@
         </div>
       </div>
     </div>
+
+    <!-- 3 cards ends here -->
   </div>
 </div>
 
-<!-- bottom section of our site -->
 
 
 
