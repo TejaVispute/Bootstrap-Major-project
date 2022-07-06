@@ -8,10 +8,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
+<style>
+  .container img{
+    height: 550px; /* This whole css is for carousel height and image adjusting purpuse*/
+    width: 100%;
+    object-fit: cover;
+    
+  }
+  .nav-item a{
+    font-size: 20px;
+  }
+  
+
+  /* .imageitem{
+    height: 550px;
+    width: 100%;
+    object-fit:center;
+  } */
+
+  
+</style>
 
 <body>
+
+  <!-- this is navigation bar of our webpage -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(to bottom, #00cc66 0%, #669999 100%);">
-        <div class="container-fluid">
+        <div class="container-fluid jus">
           <a class="navbar-brand" href="#">Tourisom</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,7 +50,7 @@
                 <a class="nav-link" href="/music.html">Music</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Famous Food</a>
+                <a class="nav-link" href="/famous_food.html">Famous Food</a>
               </li>   
             </ul>
             <form class="d-flex" role="search">
@@ -38,7 +60,64 @@
           </div>
         </div>
       </nav>
-    <h2 class="mt-2 text-center">Welcome to MAHARASHTRA</h2>
+    <div class="container">
+      <h3 class="text-center mt-4">
+        Welcome to our Maharashtra <span class="badge bg-danger">New</span>       
+      </h3>
+
+    </div>
+    <div class="container mt-4">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active imageitem" data-bs-interval="10000">
+            <img src="https://i0.wp.com/news.jugaadin.com/wp-content/uploads/2020/08/culture-and-tradition-of-Maharashtra.png?fit=1024%2C536&ssl=1" class="d-block w-100" alt="...">
+          
+          </div>
+          <div class="carousel-item imageitem" data-bs-interval="2000">
+            <img src="https://as2.ftcdn.net/v2/jpg/03/16/76/07/1000_F_316760792_N8EioEZe6cOOTe0IrqRXe14sjT3rprY2.jpg" class="d-block w-100" alt="...">
+          
+          </div>
+          <div class="carousel-item imageitem">
+            <img src="https://i.pinimg.com/originals/98/80/1c/98801cd4bc79f97ff21fab4ed7f78e61.jpg" class="d-block w-100" alt="...">
+          
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+
+    
+
+    <div class="container mt-4">
+      <div class="card text-center">
+        <div class="card-header bg-dark text-white">
+          Featured
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Explore More About Maharashtra</h3>
+          <p class="card-text">Maharashtra is the third largest state of India in terms of land area. It has a long history of Marathi saints of Varakari religious movement, such as Dnyaneshwar, Namdev, Chokhamela, Eknath and Tukaram which forms the one of bases of the culture of Maharashtra or Marathi culture.[1] Maharashtra had huge influence over India under the 17th-century king Chatrapati Shivaji Maharaj of the Maratha Empire and his concept of Hindavi Swarajya which translates to self-rule of people.[2]</p>
+          <a href="/attraction.html" class="btn btn-primary">Explore</a>
+        </div>
+        <div class="card-footer text-muted ">
+          2 days ago
+        </div>
+      </div>
+    </div>
+   
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -47,8 +126,3 @@
 </body>
 
 </html>
-
-
-https://www.transindiatravels.com/wp-content/uploads/mumbai-3.jpg
-
-https://static.toiimg.com/photo/52533940.cms

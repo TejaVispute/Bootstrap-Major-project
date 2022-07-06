@@ -8,9 +8,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
+<style>
+.card img{
+  display: flex;
+  justify-self: center;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.nav-item a{
+    font-size: 20px;
+  }
+  
+</style>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(to bottom, #00cc66 0%, #669999 100%);">
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background: linear-gradient(to bottom, #00cc66 0%, #669999 100%);">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Tourisom</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,10 +38,10 @@
                 <a class="nav-link" href="/attraction.html">Attraction</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Music</a>
+                <a class="nav-link" href="/music.html">Music</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Famous Food</a>
+                <a class="nav-link active" href="#">Famous Food</a>
               </li>   
             </ul>
             <form class="d-flex" role="search">
@@ -38,7 +51,43 @@
           </div>
         </div>
       </nav>
-    <h2 class="mt-2 text-center">Welcome to MAHARASHTRA</h2>
+    <h2 class="mt-2 text-center">Famous Foods Of Maharashtra</h2>
+
+    <div class="container mt-4">
+      <div class="card-group">
+        <div class="card">
+          <img src="https://thumbs.dreamstime.com/b/vada-pav-sometimes-spelled-wada-popular-vegetarian-fast-food-dish-native-to-indian-state-maharashtra-90764721.jpg " class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Vada Pav</h5>
+            <p class="card-text text-wrap">Vada pav, alternatively spelt wada pao, (listen) is a vegetarian fast food dish native to the state of Maharashtra. The dish consists of a deep fried potato dumpling placed inside a bread bun (pav) sliced almost in half through the middle. It is generally accompanied with one or more chutneys and a green chili pepper.[1] Although it originated as an affordable street food in Mumbai, it is now served in food stalls and restaurants across India. </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://b.zmtcdn.com/data/pictures/chains/9/19800589/dd5bd2afc0e7c8a02a16ce14500459ca.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Missal Pav</h5>
+            <p class="card-text">Misal pav (Marathi: मिसळपाव) is a popular dish from Maharashtra. It consists of misal (a spicy curry usually made from moth beans) and pav (a type of Indian bread roll).[1][2] The final dish is topped with farsan or sev, onions, lemon and coriander (cilantro).[3] It is usually served hot with bread or rolls[4] toasted with butter and buttermilk or dahi and papad. It is served as a breakfast dish, as a snack and also as a full meal.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://media.istockphoto.com/photos/indian-spicy-food-paav-bhaji-or-pav-bhaji-picture-id1155185428?k=20&m=1155185428&s=612x612&w=0&h=OhaOVUKroRKJbMbx4wPH2ysTb8vHx5p3plQOWnyagI0=" class="card-img-bottom" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pav Bhaji</h5>
+            <p class="card-text">Pav bhaji is a spiced mixture of mashed vegetables in a thick gravy served with bread. Vegetables in the curry may commonly include potatoes, onions, carrots, chillies, peas, bell peppers and tomatoes. Street sellers usually cook the curry on a flat griddle (tava) and serve the dish hot. A soft white bread roll is the usual accompaniment to the curry, but this does not preclude the use of other bread varieties such as chapati, roti or brown bread.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+     
+    </div>
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
